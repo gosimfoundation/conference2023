@@ -4368,7 +4368,16 @@ figcaption {
 
 .image23 {
   border-radius: 8px;
-  height: auto
+  height: auto;
+  object-fit: contain;
+  object-position: left top
+}
+
+@media screen and (min-width:992px) {
+  .image23 {
+    align-self: start;
+    max-height: 200px
+  }
 }
 
 .text-block-3 {
@@ -4644,6 +4653,7 @@ figcaption {
   border-radius: 10px;
   width: 200px;
   height: 200px;
+  object-fit: contain;
   flex: none
 }
 
