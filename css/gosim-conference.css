@@ -4367,7 +4367,8 @@ figcaption {
 }
 
 .image23 {
-  border-radius: 8px
+  border-radius: 8px;
+  height: auto
 }
 
 .text-block-3 {
@@ -4642,7 +4643,8 @@ figcaption {
 .image-3 {
   border-radius: 10px;
   width: 200px;
-  height: 200px
+  height: 200px;
+  flex: none
 }
 
 .small-text-2 {
